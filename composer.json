@@ -1,0 +1,24 @@
+{
+    "name": "emtiazzahid/support-monitor",
+    "description": "A WordPress support monitoring plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Emtiaz Zahid",
+            "email": "emtiazzahid@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "scripts": {
+    },
+    "autoload": {
+        "psr-4": {
+            "SupportMonitor\\App\\": "includes/"
+        }
+    }
+}
